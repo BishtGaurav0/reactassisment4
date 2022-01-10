@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/reactassisment4/static/css/main.3e3977f0.css",
+    "main.js": "/reactassisment4/static/js/main.afd662ea.js",
+    "static/js/787.f39843e3.chunk.js": "/reactassisment4/static/js/787.f39843e3.chunk.js",
+    "static/media/Hogwarts Wallpapers - Wallpaper Cave.jpeg": "/reactassisment4/static/media/Hogwarts Wallpapers - Wallpaper Cave.ca4590ade6fad5347d6c.jpeg",
+    "static/media/logo.svg": "/reactassisment4/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/reactassisment4/index.html",
+    "main.3e3977f0.css.map": "/reactassisment4/static/css/main.3e3977f0.css.map",
+    "main.afd662ea.js.map": "/reactassisment4/static/js/main.afd662ea.js.map",
+    "787.f39843e3.chunk.js.map": "/reactassisment4/static/js/787.f39843e3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e3977f0.css",
+    "static/js/main.afd662ea.js"
+  ]
+}
