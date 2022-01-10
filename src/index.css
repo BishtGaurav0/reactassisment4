@@ -5,9 +5,234 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 710px;
+  width: 100%;
+  background-image: url('./image/Hogwarts\ Wallpapers\ -\ Wallpaper\ Cave.jpeg');
+  background-repeat: no-repeat;
+  background-size: 85rem 45rem;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header{
+  height: 70px;
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-around;
+  font-style:italic;
+}
+
+.headers{
+  color: #f8f4f4;
+  text-decoration: none;
+  font-size: xx-large;
+  font-weight: 900;
+  padding-top: 10px;
+  font-family: 'Harry Potter',cursive;
+}
+
+h1{
+  text-align: center;
+  text-decoration: underline;
+}
+
+h2{
+  font-size: xx-large;
+  font-weight: 900;
+  margin-left: 80px;
+  text-decoration: underline;
+}
+
+.table{
+  width: 90%;
+  margin-left: 80px;
+  margin-top: 60px;
+}
+
+.student-btn{
+  height: 50px;
+  width: 300px;
+  font-size: x-large;
+  font-weight: 700;
+  position: absolute;
+  top: 100px;
+  left: 76%;
+  background-color: burlywood;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 70px;
+  cursor: pointer;
+  color: azure;
+  font-family: 'Harry Potter',cursive;
+}
+.bold{
+  color: aliceblue;
+  text-decoration-line: none;
+  text-decoration-style: none;
+  font-family: 'Harry Potter',cursive;
+  font-size: 8rem;
+}
+
+@supports (--css: variables) {
+  .bold {
+    background: linear-gradient( white , grey );
+    color: transparent;
+    -webkit-background-clip: text;
+            background-clip: text;
+  }
+}
+.bold2{
+  color: aliceblue;
+  text-decoration-line: none;
+  text-decoration-style: none;
+  font-family: 'Harry Potter',cursive;
+  font-size: 3rem;
+}
+
+.letter-image {
+  position: absolute;
+  top: 86%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.animated-mail {
+  position: absolute;
+  height: 150px;
+  width: 200px;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  transition: 0.4s;
+}
+.animated-mail .body {
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 100px 200px;
+  border-color: transparent transparent #deb886 transparent;
+  z-index: 2;
+}
+.animated-mail .top-fold {
+  position: absolute;
+  top: 50px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 50px 100px 0 100px;
+  -webkit-transform-origin: 50% 0%;
+  -webkit-transition: transform 0.4s 0.4s, z-index 0.2s 0.4s;
+  -moz-transform-origin: 50% 0%;
+  -moz-transition: transform 0.4s 0.4s, z-index 0.2s 0.4s;
+  transform-origin: 50% 0%;
+  transition: transform 0.4s 0.4s, z-index 0.2s 0.4s;
+  border-color: #deb886 transparent transparent transparent;
+  z-index: 2;
+}
+.animated-mail .back-fold {
+  position: absolute;
+  bottom: 0;
+  width: 200px;
+  height: 100px;
+  background: white;
+  z-index: 0;
+}
+.animated-mail .left-fold {
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 50px 0 50px 100px;
+  border-color: transparent transparent transparent #deb886;
+  z-index: 2;
+}
+.animated-mail .letter {
+  left: 20px;
+  bottom: 0px;
+  position: absolute;
+  width: 160px;
+  height: 60px;
+  background: white;
+  z-index: 1;
+  overflow: hidden;
+  -webkit-transition: 0.4s 0.2s;
+  -moz-transition: 0.4s 0.2s;
+  transition: 0.4s 0.2s;
+}
+.animated-mail .letter .letter-border {
+  height: 10px;
+  width: 100%;
+  background: repeating-linear-gradient(-45deg, #6c3f19, #6c3f19 8px, transparent 8px, transparent 18px);
+}
+.animated-mail .letter .letter-title {
+  margin-top: 10px;
+  margin-left: 5px;
+  height: 10px;
+  width: 40%;
+  background: #6c3f19;
+}
+.animated-mail .letter .letter-context {
+  margin-top: 10px;
+  margin-left: 5px;
+  height: 10px;
+  width: 20%;
+  background: #6c3f19;
+}
+.animated-mail .letter .letter-stamp {
+  margin-top: 30px;
+  margin-left: 120px;
+  border-radius: 100%;
+  height: 30px;
+  width: 30px;
+  background: #df1018;
+  opacity: 1;
+}
+
+.shadow {
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  width: 400px;
+  height: 30px;
+  transition: 0.4s;
+  transform: translateX(-50%);
+  -webkit-transition: 0.4s;
+  -webkit-transform: translateX(-50%);
+  -moz-transition: 0.4s;
+  -moz-transform: translateX(-50%);
+  border-radius: 100%;
+  background: radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+}
+
+.letter-image:hover .animated-mail {
+  transform: translateY(50px);
+  -webkit-transform: translateY(50px);
+  -moz-transform: translateY(50px);
+}
+.letter-image:hover .animated-mail .top-fold {
+  transition: transform 0.4s, z-index 0.2s;
+  transform: rotateX(180deg);
+  -webkit-transition: transform 0.4s, z-index 0.2s;
+  -webkit-transform: rotateX(180deg);
+  -moz-transition: transform 0.4s, z-index 0.2s;
+  -moz-transform: rotateX(180deg);
+  z-index: 0;
+}
+.letter-image:hover .animated-mail .letter {
+  height: 180px;
+}
+.letter-image:hover .shadow {
+  width: 250px;
+}
+
