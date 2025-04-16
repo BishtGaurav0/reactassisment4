@@ -37,7 +37,7 @@ _A brief explanation of code structure and component logic will be uploaded._
 To run this project locally:
 
 ```bash
-git clone https://github.com/yourusername/student-manager.git
-cd student-manager
+git clone https://github.com/yourusername/studentManager.git
+cd studentManager
 npm install
 npm start
