@@ -18,7 +18,7 @@ student-manager/ ├─ public/ ├─ src/ │ ├─ components/ │ ├─ pa
 _A short video walkthrough showing routing and form handling will be added soon._
 
 ## 💻 Video Walkthrough of the Codebase  
-_A brief explanation of code structure and component logic will be uploaded._
+![Image](https://github.com/user-attachments/assets/cc27df99-7d69-442f-ac75-130effd7ee9f)
 
 ## ✨ Features
 - 📋 View list of students
